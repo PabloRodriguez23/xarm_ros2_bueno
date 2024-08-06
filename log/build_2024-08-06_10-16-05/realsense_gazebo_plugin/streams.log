@@ -1,0 +1,143 @@
+[0.315s] Invoking command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=228 /usr/bin/cmake /home/prodriguez/GITS/xarm_ros2_bueno/src/xarm_ros2/thirdparty/realsense_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin
+[0.373s] -- The C compiler identification is GNU 11.4.0
+[0.431s] -- The CXX compiler identification is GNU 11.4.0
+[0.437s] -- Detecting C compiler ABI info
+[0.529s] -- Detecting C compiler ABI info - done
+[0.537s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.537s] -- Detecting C compile features
+[0.538s] -- Detecting C compile features - done
+[0.540s] -- Detecting CXX compiler ABI info
+[0.643s] -- Detecting CXX compiler ABI info - done
+[0.651s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.651s] -- Detecting CXX compile features
+[0.652s] -- Detecting CXX compile features - done
+[0.656s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.820s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.935s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.020s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.030s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.049s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.074s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.104s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.285s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.315s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.836s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.893s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.010s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.040s] -- Looking for pthread.h
+[2.296s] -- Looking for pthread.h - found
+[2.296s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.492s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.494s] -- Found Threads: TRUE  
+[2.863s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.904s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.906s] -- Checking for module 'bullet>=2.82'
+[2.986s] --   Found bullet, version 3.05
+[3.623s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.918s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.989s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.080s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.134s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.150s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.163s] -- Searching for dependencies of ignition-math6
+[4.167s] -- Looking for OGRE...
+[4.168s] -- OGRE_PREFIX_WATCH changed.
+[4.189s] -- Checking for module 'OGRE'
+[4.298s] --   Found OGRE, version 1.9.0
+[4.477s] -- Found Ogre Ghadamon (1.9.0)
+[4.505s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.531s] -- Looking for OGRE_Paging...
+[4.565s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.565s] -- Looking for OGRE_Terrain...
+[4.583s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.583s] -- Looking for OGRE_Property...
+[4.615s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.615s] -- Looking for OGRE_RTShaderSystem...
+[4.638s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.639s] -- Looking for OGRE_Volume...
+[4.651s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.651s] -- Looking for OGRE_Overlay...
+[4.679s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.162s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.178s] -- Looking for ignition-transport8 -- found version 8.2.1
+[5.178s] -- Searching for dependencies of ignition-transport8
+[5.270s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[5.308s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.321s] -- Checking for module 'libzmq >= 4'
+[5.381s] --   Found libzmq , version 4.3.4
+[5.576s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.584s] -- Checking for module 'uuid'
+[5.606s] --   Found uuid, version 2.37.2
+[5.661s] -- Found UUID: TRUE  
+[5.668s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.669s] -- Searching for dependencies of ignition-msgs5
+[5.694s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.700s] -- Checking for module 'tinyxml2'
+[5.718s] --   Found tinyxml2, version 9.0.0
+[5.770s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.775s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.775s] -- Searching for dependencies of ignition-common3
+[5.776s] -- Looking for dlfcn.h - found
+[5.777s] -- Looking for libdl - found
+[5.778s] -- Found DL: TRUE  
+[5.794s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[5.795s] -- Searching for <ignition-common3> component [graphics]
+[5.800s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[5.800s] -- Searching for dependencies of ignition-common3-graphics
+[5.801s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.806s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[5.807s] -- Searching for dependencies of ignition-fuel_tools4
+[5.911s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[5.923s] -- Checking for module 'jsoncpp'
+[5.947s] --   Found jsoncpp, version 1.9.5
+[6.000s] -- Found JSONCPP: TRUE  
+[6.006s] -- Checking for module 'libzip'
+[6.025s] --   Found libzip, version 1.7.3
+[6.070s] -- Found ZIP: TRUE  
+[6.070s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.071s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.071s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.078s] -- Gazebo version: 11.10
+[6.078s] -- Checking for module 'tbb'
+[6.096s] --   Found tbb, version 2021.5.0
+[6.149s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[6.365s] -- Found camera_info_manager: 3.1.9 (/opt/ros/humble/share/camera_info_manager/cmake)
+[6.442s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.509s] -- Configuring done
+[6.563s] -- Generating done
+[6.565s] -- Build files have been written to: /home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin
+[6.579s] Invoked command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=228 /usr/bin/cmake /home/prodriguez/GITS/xarm_ros2_bueno/src/xarm_ros2/thirdparty/realsense_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin
+[6.581s] Invoking command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=228 /usr/bin/cmake --build /home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin -- -j6 -l6
+[6.652s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o[0m
+[6.652s] [ 66%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o[0m
+[35.762s] [100%] [32m[1mLinking CXX shared library librealsense_gazebo_plugin.so[0m
+[36.650s] [100%] Built target realsense_gazebo_plugin
+[36.662s] Invoked command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=228 /usr/bin/cmake --build /home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin -- -j6 -l6
+[36.698s] Invoking command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=228 /usr/bin/cmake --install /home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin
+[36.707s] -- Install configuration: ""
+[36.707s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+[36.711s] -- Set runtime path of "/home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so" to ""
+[36.711s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/include/
+[36.711s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin
+[36.711s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h
+[36.711s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h
+[36.711s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+[36.711s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+[36.712s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+[36.712s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+[36.712s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+[36.712s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+[36.712s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+[36.712s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+[36.713s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+[36.713s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+[36.713s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+[36.713s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+[36.713s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+[36.713s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+[36.713s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.713s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[36.714s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+[36.714s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+[36.714s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+[36.716s] Invoked command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=228 /usr/bin/cmake --install /home/prodriguez/GITS/xarm_ros2_bueno/build/realsense_gazebo_plugin

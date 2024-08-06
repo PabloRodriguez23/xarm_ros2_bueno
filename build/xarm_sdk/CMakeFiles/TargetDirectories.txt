@@ -1,0 +1,10 @@
+/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk/CMakeFiles/uninstall.dir
+/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk/CMakeFiles/xarm_sdk_uninstall.dir
+/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir
+/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk/CMakeFiles/test.dir
+/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk/CMakeFiles/edit_cache.dir
+/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk/CMakeFiles/rebuild_cache.dir
+/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk/CMakeFiles/list_install_components.dir
+/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk/CMakeFiles/install.dir
+/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk/CMakeFiles/install/local.dir
+/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk/CMakeFiles/install/strip.dir

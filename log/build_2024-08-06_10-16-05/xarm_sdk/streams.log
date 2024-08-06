@@ -1,0 +1,124 @@
+[0.024s] Invoking command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=17 /usr/bin/cmake /home/prodriguez/GITS/xarm_ros2_bueno/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk
+[0.326s] -- The C compiler identification is GNU 11.4.0
+[0.326s] -- The CXX compiler identification is GNU 11.4.0
+[0.328s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.434s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.434s] -- Detecting C compile features
+[0.435s] -- Detecting C compile features - done
+[0.440s] -- Detecting CXX compiler ABI info
+[0.537s] -- Detecting CXX compiler ABI info - done
+[0.544s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.545s] -- Detecting CXX compile features
+[0.545s] -- Detecting CXX compile features - done
+[0.554s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.721s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.860s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.973s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.989s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.990s] -- Configured cppcheck include dirs: /home/prodriguez/GITS/xarm_ros2_bueno/src/xarm_ros2/xarm_sdk/cxx/include
+[0.990s] -- Configured cppcheck exclude dirs and/or files: 
+[1.005s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.005s] -- Configured cpplint exclude dirs and/or files: 
+[1.012s] -- Added test 'lint_cmake' to check CMake code style
+[1.030s] -- Added test 'uncrustify' to check C / C++ code style
+[1.030s] -- Configured uncrustify additional arguments: 
+[1.033s] -- Added test 'xmllint' to check XML markup files
+[1.038s] -- Configuring done
+[1.044s] -- Generating done
+[1.046s] -- Build files have been written to: /home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk
+[1.051s] Invoked command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=17 /usr/bin/cmake /home/prodriguez/GITS/xarm_ros2_bueno/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk
+[1.052s] Invoking command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=17 /usr/bin/cmake --build /home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk -- -j6 -l6
+[1.124s] [  3%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_osx.cc.o[0m
+[1.125s] [  6%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_linux.cc.o[0m
+[1.133s] [  9%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_win.cc.o[0m
+[1.138s] [ 12%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/win.cc.o[0m
+[1.141s] [ 15%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/unix.cc.o[0m
+[1.142s] [ 18%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/serial.cc.o[0m
+[1.176s] [ 21%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/crc16.cc.o[0m
+[1.188s] [ 25%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/queue_memcpy.cc.o[0m
+[1.214s] [ 28%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/connect.cc.o[0m
+[1.251s] [ 31%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/debug/debug_print.cc.o[0m
+[1.375s] [ 34%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd.cc.o[0m
+[1.572s] [ 37%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_ser.cc.o[0m
+[1.708s] [ 40%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_tcp.cc.o[0m
+[1.835s] [ 43%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/os/network.cc.o[0m
+[2.005s] [ 46%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/ser.cc.o[0m
+[2.024s] [ 50%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/socket.cc.o[0m
+[2.059s] [ 53%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/report_data.cc.o[0m
+[2.289s] [ 56%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_api.cc.o[0m
+[2.348s] [ 59%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_bio.cc.o[0m
+[2.386s] [ 62%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_ft_sensor.cc.o[0m
+[2.406s] [ 65%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_events.cc.o[0m
+[2.425s] [ 68%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gpio.cc.o[0m
+[2.428s] [ 71%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gripper.cc.o[0m
+[3.282s] [ 75%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_modbus_tcp.cc.o[0m
+[3.397s] [ 78%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_motion.cc.o[0m
+[3.455s] [ 81%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_params.cc.o[0m
+[3.586s] [ 84%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_record.cc.o[0m
+[4.162s] [ 87%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_report.cc.o[0m
+[4.476s] [ 90%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_robotiq.cc.o[0m
+[4.724s] [ 93%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_servo.cc.o[0m
+[4.777s] [ 96%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_track.cc.o[0m
+[6.627s] [100%] [32m[1mLinking CXX shared library libxarm_cxx_sdk.so[0m
+[6.861s] [100%] Built target xarm_cxx_sdk
+[6.874s] Invoked command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=17 /usr/bin/cmake --build /home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk -- -j6 -l6
+[7.046s] Invoking command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=17 /usr/bin/cmake --install /home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk
+[7.055s] -- Install configuration: ""
+[7.055s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/environment/library_path.sh
+[7.055s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/environment/library_path.dsv
+[7.056s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include
+[7.056s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/serial
+[7.056s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/serial/impl
+[7.056s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/serial/impl/win.h
+[7.056s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/serial/impl/unix.h
+[7.056s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/serial/serial.h
+[7.056s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/serial/v8stdint.h
+[7.056s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm
+[7.056s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/wrapper
+[7.057s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/wrapper/common
+[7.057s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/wrapper/common/utils.h
+[7.057s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/wrapper/common/timer.h
+[7.057s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/wrapper/xarm_api.h
+[7.057s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core
+[7.057s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/debug
+[7.057s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/debug/debug_print.h
+[7.057s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/common
+[7.057s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/common/queue_memcpy.h
+[7.057s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/common/data_type.h
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/common/crc16.h
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/port
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/port/socket.h
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/port/ser.h
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/connect.h
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/xarm_config.h
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/instruction
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_tcp.h
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd.h
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_config.h
+[7.058s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/instruction/servo3_config.h
+[7.059s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_ser.h
+[7.059s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/report_data.h
+[7.059s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/os
+[7.059s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/os/bak
+[7.059s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/os/bak/thread.h
+[7.061s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/cxx/include/xarm/core/os/network.h
+[7.061s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/lib/libxarm_cxx_sdk.so
+[7.063s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/ament_index/resource_index/package_run_dependencies/xarm_sdk
+[7.063s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/ament_index/resource_index/parent_prefix_path/xarm_sdk
+[7.063s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.sh
+[7.064s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.dsv
+[7.064s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/environment/path.sh
+[7.064s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/environment/path.dsv
+[7.064s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/local_setup.bash
+[7.065s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/local_setup.sh
+[7.065s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/local_setup.zsh
+[7.065s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/local_setup.dsv
+[7.065s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/package.dsv
+[7.066s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/ament_index/resource_index/packages/xarm_sdk
+[7.066s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[7.066s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.066s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig.cmake
+[7.066s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig-version.cmake
+[7.066s] -- Installing: /home/prodriguez/GITS/xarm_ros2_bueno/install/xarm_sdk/share/xarm_sdk/package.xml
+[7.073s] Invoked command in '/home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prodriguez/GITS/dev_ws/install/uf_ros_lib:/home/prodriguez/ros2_ws/install/python_parameters:/home/prodriguez/ros2_ws/install/py_pubsub:/opt/ros/humble ROS_DOMAIN_ID=17 /usr/bin/cmake --install /home/prodriguez/GITS/xarm_ros2_bueno/build/xarm_sdk
